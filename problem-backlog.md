@@ -169,7 +169,7 @@ Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
 ## P-006
 - **Loại:** Guideline mơ hồ
 - **Mục guideline:** §3.4 — Phần bị che
-- **Người phát hiện:** @Nguyễn Vũ Quang Minh · 15/09/2026
+- **Người phát hiện:** @qungmnh-udev · 15/09/2026
 - **Mô tả:** Phương tiện di chuyển bị che khuất, và bị cắt khỏi khung hình, khó để annotator phán đoán được phần còn lại của phương tiện
 - **Hướng đang cân nhắc:** 
     Đọc lại guideline, bàn bạc lại với team lead để đưa ra phương án chính xác.
