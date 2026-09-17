@@ -8,7 +8,7 @@
 | Thành viên | Vị trí | Phân công tuần này |
 |---|---|---|
 | Nguyễn Tuấn Minh ([@TMTower18](https://github.com/TMTower18)) | Lead | Chia job, chốt edge case, review xác suất 10% mọi job |
-| Nguyễn Lâm Bách (@thanh-vien-b) | Reviewer · Annotator | Gán job 1339, Review job 1341 |
+| Nguyễn Lâm Bách [@BachNguyen-hub](https://github.com/BachNguyen-hub) | Reviewer · Annotator | Gán job 1339, Review job 1341 |
 | Vũ Huy Hoàng (@thanh-vien-b) | Reviewer · Annotator | Gán job 1338, Review job 1340 |
 | Hoàng Trần Minh Đức (@thanh-vien-b) | Reviewer · Annotator | Gán job 1340, Review job 1339 |
 | Nguyễn Vũ Quang Minh (@thanh-vien-b) | Reviewer · Annotator | Gán job 1341, Review job 1338|
@@ -19,9 +19,9 @@
 | # | Nội dung công việc | Annotator | Reviewer | Hoàn thành | Ghi chú |
 |---|---|---|---|---|---|
 | 1 | Job #1338 — 25 frames, frame 0–24 | @Vũ Huy Hoàng | @Nguyễn Vũ Quang Minh | ⬜ 0% | Chưa bắt đầu |
-| 2 | Job #1339 — 25 frames, frame 25–49 | @Nguyễn Lâm Bách | @Hoàng Trần Minh Đức | ⬜ 0% | Chưa bắt đầu |
+| 2 | Job #1339 — 25 frames, frame 25–49 | [@BachNguyen-hub](https://github.com/BachNguyen-hub) | @Hoàng Trần Minh Đức | ⬜ 0% | Chưa bắt đầu |
 | 3 | Job #1340 — 25 frames, frame 50–74 | @Hoàng Trần Minh Đức | @Vũ Huy Hoàng | ⬜ 0% | Chưa bắt đầu |
-| 4 | Job #1341 — 25 frames, frame 75–99 | @Nguyễn Vũ Quang Minh | @Nguyễn Lâm Bách | ⬜ 0% | Chưa bắt đầu |
+| 4 | Job #1341 — 25 frames, frame 75–99 | @Nguyễn Vũ Quang Minh | ([@BachNguyen-hub](https://github.com/BachNguyen-hub)) | ⬜ 0% | Chưa bắt đầu |
 | 5 | Đọc lại Annotation Guideline và gom các ca chưa rõ | [@TMTower18](https://github.com/TMTower18) | ----- | ⬜ 0% | Chưa bắt đầu |
 
 
