@@ -104,3 +104,42 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 ```
 
 Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
+
+
+## P-001
+
+- **Loại:** Guideline chưa nói tới.
+- **Mục guideline:** 2
+- **Người phát hiện:** HoangTranMinhDuc
+- **Link CVAT:**  https://cvat.note.transformerlabs.ai/tasks/122/jobs/1340?frame=66&type=shape&serverID=57383
+- **Mô tả:** vạch trắng đôi đi kèm với vạch xương cá
+- **Các cách hiểu:**
+  1. Annotate vạch trắng đôi theo quy định về vạch đôi, đồng thời annotate phần vạch xương cá theo class tương ứng.
+  2. Xem vạch trắng đôi và vạch xương cá là một cấu trúc liên kết và cần có quy tắc annotate riêng.
+- **Xử lý tạm trong lúc chờ:** Annotate vạch trắng đôi theo quy định về vạch đôi
+- **Kết quả:** 🔴 Mở
+
+## P-002
+
+- **Loại:** Guideline mơ hồ 
+- **Mục guideline:** 2
+- **Người phát hiện:** HoangTranMinhDuc
+- **Link CVAT:** https://cvat.note.transformerlabs.ai/tasks/122/jobs/1340?frame=68&type=shape&serverID=59452
+- **Mô tả:** Phân vân có phải traffic sign hay không
+- **Các cách hiểu:**
+  1.  Annotate vào traffic sign vì đây là một loại biển báo/chỉ dẫn giao thông.
+  2.  Không annotate traffic sign vì guideline chỉ áp dụng cho nhóm biển hiệu lệnh trên đường, trong khi đối tượng này là biển chỉ dẫn lối ra.
+- **Xử lý tạm trong lúc chờ:** Annotate vào traffic sign
+- **Kết quả:** 🔴 Mở
+
+## P-003
+
+- **Loại:** Guideline chưa nói tới.
+- **Mục guideline:** 2
+- **Người phát hiện:** HoangTranMinhDuc
+- **Link CVAT:** https://cvat.note.transformerlabs.ai/tasks/122/jobs/1340?frame=68&type=shape&serverID=59636
+- **Mô tả:** phân vân mép dải đảo phân cách có tính là road curb hay không
+- **Các cách hiểu:**
+  1.  Annotate mép dải đảo phân cách vào class road curb vì đây là phần mép/nâng cao phân tách khu vực mặt đường.
+- **Xử lý tạm trong lúc chờ:** Annotate theo road curb
+- **Kết quả:** 🔴 Mở
