@@ -30,40 +30,29 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 
 ## P-001
 
-**Người ngồi sau xe máy: box riêng hay gộp chung với người lái**
+**Object bị che khuất / chồng lấn**
 
 - **Loại:** Guideline mơ hồ
-- **Mục guideline:** §3.2 — "mỗi người một bounding box"
-- **Người phát hiện:** @thanh-vien-b · 16/09/2026
+- **Mục guideline:** §3.4 — "Phần bị che"
+- **Người phát hiện:** @BachNguyen-hub · 17/09/2026
 - **Link CVAT:**
-  - https://cvat.example.com/tasks/12/jobs/101?frame=37 — hai người, gần như chồng khít
-  - https://cvat.example.com/tasks/12/jobs/101?frame=112 — người ngồi sau chỉ lộ đầu
-- **Mô tả:** §3.2 nói mỗi người một box, nhưng hình minh hoạ trong guideline lại vẽ một box
-  cho cả xe máy lẫn người trên xe.
-- **Các cách hiểu:**
-  1. Theo câu chữ: người ngồi sau có box `nguoi` riêng.
-  2. Theo hình minh hoạ: không vẽ box `nguoi` cho ai đang ngồi trên xe.
-- **Xử lý tạm trong lúc chờ:** vẽ box riêng và gắn tag `can_xem_lai` để dễ lọc ra sửa.
-- **Kết quả:** ✅ [QĐ-001](so-quyet-dinh.md#qđ-001)
+  - https://cvat.note.transformerlabs.ai/tasks/122/jobs/1339 
+- **Mô tả:** Xe ô tô đi phía trước bị che khuất khoảng 80% do một xe ô tô chắn trước camera, annotator phải đoán phần còn lại của chiếc xe để vẽ box.
+- **Xử lý tạm trong lúc chờ:** vẫn vẽ và giữ box với viền nét đứt.
+- **Kết quả:** 🔴 Mở
 
 ## P-002
 
-**Xe bị che khuất hơn một nửa**
+**Không xác định được đúng số lượng vật thể cần vẽ**
 
-- **Loại:** Guideline chưa nói tới
-- **Mục guideline:** §3.4 — chỉ nói về vật thể bị cắt ở mép ảnh, không nói về bị che
-- **Người phát hiện:** @thanh-vien-c · 17/09/2026
+- **Loại:** Guideline mơ hồ
+- **Mục guideline:** §3.1 — Đủ vật thể
+- **Người phát hiện:** @BachNguyen-hub · 17/09/2026
 - **Link CVAT:**
-  - https://cvat.example.com/tasks/12/jobs/103?frame=8 — ô tô sau xe buýt, lộ khoảng 30%
-  - https://cvat.example.com/tasks/12/jobs/103?frame=64 — xe máy sau cột điện, lộ khoảng 50%
-- **Mô tả:** Không rõ có gán nhãn vật thể bị che không, và nếu có thì box ôm phần nhìn thấy
-  hay ôm cả phần ước lượng bị che.
-- **Các cách hiểu:**
-  1. Bỏ qua khi lộ dưới 50%.
-  2. Luôn gán, box chỉ ôm phần nhìn thấy.
-  3. Luôn gán, box ôm cả phần ước lượng.
-- **Xử lý tạm trong lúc chờ:** dừng job 103, chuyển sang job khác ít ca che khuất.
-- **Kết quả:** ↗️ Đã hỏi BTC ngày 18/09/2026, chờ trả lời.
+  - https://cvat.note.transformerlabs.ai/tasks/122/jobs/1339
+- **Mô tả:** Không rõ có nên gán nhãn vật thể không.
+- **Xử lý tạm trong lúc chờ:** Gán nhãn các vật thể mình biết chắc chắn cần.
+- **Kết quả:** 🔴 Mở
 
 ## P-003
 
