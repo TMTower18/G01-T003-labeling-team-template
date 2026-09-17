@@ -143,3 +143,36 @@ Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
   1.  Annotate mép dải đảo phân cách vào class road curb vì đây là phần mép/nâng cao phân tách khu vực mặt đường.
 - **Xử lý tạm trong lúc chờ:** Annotate theo road curb
 - **Kết quả:** 🔴 Mở
+
+## P-004
+
+**Có những class mà có trong cvat mà không có trong guideline**
+
+- **Loại:** Guideline mơ hồ
+- **Mục guideline:** §2. Taxonomy và loại shape bắt buộc
+
+- **Người phát hiện:** @Vũ Huy Hoàng · 15/09/2026
+
+- **Mô tả:** Có những class mà có trong cvat mà không có trong guideline
+  
+- **Hướng đang cân nhắc:** 
+    Anotate các class chỉ có trong guideline
+  
+- **Xử lý tạm trong lúc chờ:** Anotate các class chỉ có trong guideline
+- **Kết quả:** 🔴 Mở
+
+## P-005
+
+**Chưa rõ định nghĩa area/drivable và area/alternative khi vẽ polygon drivable area**
+
+- **Loại:** Guideline mơ hồ
+- **Mục guideline:** §2 (Taxonomy), §4.1 (Polygon – Drivable Area)
+- **Người phát hiện:** @Vũ Huy Hoàng · 17/09/2026
+- **Link CVAT:** (không có — vấn đề áp dụng cho toàn batch)
+- **Mô tả:** §4.1 yêu cầu phân biệt area/drivable và area/alternative "theo định nghĩa đã được giảng viên/mentor chốt cho batch", nhưng guideline không ghi định nghĩa cụ thể. Vì vậy mỗi người có thể hiểu và gán nhãn khác nhau, gây thiếu nhất quán khi review và evaluate. Ví dụ trên đường một chiều có làn xe ego, làn hẹp bên cạnh (có thể là làn xe đạp) và làn đỗ xe hai bên, không rõ vùng nào là drivable, vùng nào là alternative, vùng nào không annotate.
+- **Các cách hiểu:**
+  1. Theo BDD100K gốc: area/drivable là làn xe ego (xe gắn camera) đang chạy và có quyền ưu tiên; area/alternative là mặt đường vẫn chạy được nhưng phải chuyển làn hoặc nhường xe (làn bên cạnh, phần đường sát xe đỗ). Vỉa hè, lề đất, bãi cỏ không annotate.
+  2. area/drivable là toàn bộ mặt đường xe chạy được; area/alternative là vùng mặt đất không phải đường đi (vỉa hè, lề đất…).
+  3. area/drivable là toàn bộ các làn xe chạy; area/alternative chỉ dành cho làn đỗ xe, làn xe đạp, lề đường có thể lấn tạm.
+- **Xử lý tạm trong lúc chờ:** Tiếp tục vẽ polygon theo biên mặt đường quan sát được. Chưa sửa lại nhãn drivable/alternative ở các ảnh đã làm để tránh sửa hai lần. Ghi chú lại các ảnh có nhiều làn, làn đỗ xe hoặc làn xe đạp để rà soát lại sau khi mentor chốt định nghĩa.
+- **Kết quả:** 🔴 Mở
