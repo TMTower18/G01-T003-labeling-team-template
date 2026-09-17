@@ -173,5 +173,5 @@ Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
 - **Mô tả:** Phương tiện di chuyển bị che khuất, và bị cắt khỏi khung hình, khó để annotator phán đoán được phần còn lại của phương tiện
 - **Hướng đang cân nhắc:** 
     Đọc lại guideline, bàn bạc lại với team lead để đưa ra phương án chính xác.
-- **Xử lý tạm trong lúc chờ:** Vẽ segment phần nhìn thấy được, tạm thời đánh dấu truncated.
+- **Xử lý tạm trong lúc chờ:** Vẽ box phần nhìn thấy được, tạm thời đánh dấu truncated và occluded.
 - **Kết quả:** 🔴 Mở
