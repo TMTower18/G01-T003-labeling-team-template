@@ -110,7 +110,7 @@ Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
 
 - **Loại:** Guideline chưa nói tới.
 - **Mục guideline:** 2
-- **Người phát hiện:** HoangTranMinhDuc
+- **Người phát hiện:** HoangTra@minhducht239 16/9/2026
 - **Link CVAT:**  https://cvat.note.transformerlabs.ai/tasks/122/jobs/1340?frame=66&type=shape&serverID=57383
 - **Mô tả:** vạch trắng đôi đi kèm với vạch xương cá
 - **Các cách hiểu:**
@@ -123,7 +123,7 @@ Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
 
 - **Loại:** Guideline mơ hồ 
 - **Mục guideline:** 2
-- **Người phát hiện:** HoangTranMinhDuc
+- **Người phát hiện:** HoangT@minhducht239 16/9/2026
 - **Link CVAT:** https://cvat.note.transformerlabs.ai/tasks/122/jobs/1340?frame=68&type=shape&serverID=59452
 - **Mô tả:** Phân vân có phải traffic sign hay không
 - **Các cách hiểu:**
@@ -136,7 +136,7 @@ Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
 
 - **Loại:** Guideline chưa nói tới.
 - **Mục guideline:** 2
-- **Người phát hiện:** HoangTranMinhDuc
+- **Người phát hiện:** @minhducht239 16/9/2026
 - **Link CVAT:** https://cvat.note.transformerlabs.ai/tasks/122/jobs/1340?frame=68&type=shape&serverID=59636
 - **Mô tả:** phân vân mép dải đảo phân cách có tính là road curb hay không
 - **Các cách hiểu:**
