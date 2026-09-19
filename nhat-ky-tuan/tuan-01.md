@@ -21,7 +21,7 @@
 | 1 | Job #1338 — 25 frames, frame 0–24 | @Vũ Huy Hoàng | @Nguyễn Vũ Quang Minh | ⬜ 0% | Chưa bắt đầu |
 | 2 | Job #1339 — 25 frames, frame 25–49 | [@BachNguyen-hub](https://github.com/BachNguyen-hub) | @Hoàng Trần Minh Đức | ⬜ 0% | Chưa bắt đầu |
 | 3 | Job #1340 — 25 frames, frame 50–74 | @Hoàng Trần Minh Đức | @Vũ Huy Hoàng | ⬜ 0% | Chưa bắt đầu |
-| 4 | Job #1341 — 25 frames, frame 75–99 | @Nguyễn Vũ Quang Minh | ([@qungmnh-udev](https://github.com/qungmnh-udev)) | ⬜ 7% | Đang làm |
+| 4 | Job #1341 — 25 frames, frame 75–99 | @Nguyễn Vũ Quang Minh | ([@qungmnh-udev](https://github.com/qungmnh-udev)) | ⬜ 50% | Chờ review |
 | 5 | Đọc lại Annotation Guideline và gom các ca chưa rõ | [@TMTower18](https://github.com/TMTower18) | ----- | ⬜ 0% | Chưa bắt đầu |
 
 
