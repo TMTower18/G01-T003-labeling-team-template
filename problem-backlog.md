@@ -1,3 +1,4 @@
+# Tuần 01 · 15/09 – 21/09/2026
 # Problem backlog
 
 Những chỗ gặp trong lúc gán nhãn mà **guideline chưa trả lời được**, cộng các pain point về công cụ.
@@ -27,19 +28,6 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 **Trạng thái:** 🔴 Mở · 🗣️ Đang bàn · ↗️ Hỏi BTC · ✅ Đã chốt (trỏ sang QĐ) · 🛠️ Làm tool (trỏ sang `source-tool/`) · ⚪ Bỏ (ghi lý do)
 
 ---
-
-## P-001
-
-**Object bị che khuất / chồng lấn**
-
-- **Loại:** Guideline mơ hồ
-- **Mục guideline:** §3.4 — "Phần bị che"
-- **Người phát hiện:** @BachNguyen-hub · 17/09/2026
-- **Link CVAT:**
-  - https://cvat.note.transformerlabs.ai/tasks/122/jobs/1339 
-- **Mô tả:** Xe ô tô đi phía trước bị che khuất khoảng 80% do một xe ô tô chắn trước camera, annotator phải đoán phần còn lại của chiếc xe để vẽ box.
-- **Xử lý tạm trong lúc chờ:** vẫn vẽ và giữ box với viền nét đứt.
-- **Kết quả:** 🔴 Mở
 
 ## P-002
 
