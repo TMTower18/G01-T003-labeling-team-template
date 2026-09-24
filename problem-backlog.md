@@ -153,3 +153,13 @@ Nhớ thêm một dòng vào bảng **Danh sách** ở đầu file.
   3. area/drivable là toàn bộ các làn xe chạy; area/alternative chỉ dành cho làn đỗ xe, làn xe đạp, lề đường có thể lấn tạm.
 - **Xử lý tạm trong lúc chờ:** Tiếp tục vẽ polygon theo biên mặt đường quan sát được. Chưa sửa lại nhãn drivable/alternative ở các ảnh đã làm để tránh sửa hai lần. Ghi chú lại các ảnh có nhiều làn, làn đỗ xe hoặc làn xe đạp để rà soát lại sau khi mentor chốt định nghĩa.
 - **Kết quả:** 🔴 Mở
+
+## P-006
+- **Loại:** Guideline mơ hồ
+- **Mục guideline:** §3.4 — Phần bị che
+- **Người phát hiện:** @qungmnh-udev · 15/09/2026
+- **Mô tả:** Phương tiện di chuyển bị che khuất, và bị cắt khỏi khung hình, khó để annotator phán đoán được phần còn lại của phương tiện
+- **Hướng đang cân nhắc:** 
+    Đọc lại guideline, bàn bạc lại với team lead để đưa ra phương án chính xác.
+- **Xử lý tạm trong lúc chờ:** Vẽ box phần nhìn thấy được, tạm thời đánh dấu truncated và occluded.
+- **Kết quả:** 🔴 Mở
