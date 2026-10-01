@@ -18,7 +18,7 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 | [P-007](#p-007) | Object bị che khuất nhiều, không rõ có được suy đoán phần bị che | Guideline mơ hồ khi áp dụng thực tế | §3 — OCCLUSION; §6; §9 | 🟢 Đã chốt | → [QĐ-007](decision-log.md#qđ-007) |
 | [P-008](#p-008) | Edge case tại BBOX Job #1338 — frame 7 | Guideline chưa nói tới | Chưa xác định | 🔴 Mở | ↗️ Hỏi BTC/Mentor |
 | [P-009](#p-009) | Edge case tại Segmentation Job #1559 — frame 96 | Guideline chưa nói tới | Chưa xác định | 🔴 Mở | ↗️ Hỏi BTC/Mentor |
-| [P-010](#p-009) | Edge case tại Cuboid Annotation Job #3918 | Điểm point cloud thưa | Điểm point cloud thưa kết hợp với hình ảnh hiển thị qua camera không rõ | 🟢 Đã chốt | ↗️ Hỏi BTC/Mentor |
+| [P-010](#p-010) | Edge case tại Cuboid Annotation Job #3918 | Điểm point cloud thưa | Điểm point cloud thưa kết hợp với hình ảnh hiển thị qua camera không rõ | 🟢 Đã chốt | [QĐ-010](decision-log.md#qđ-010) |
 
 ---
 
