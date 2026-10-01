@@ -18,6 +18,7 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 | [P-007](#p-007) | Object bị che khuất nhiều, không rõ có được suy đoán phần bị che | Guideline mơ hồ khi áp dụng thực tế | §3 — OCCLUSION; §6; §9 | 🟢 Đã chốt | → [QĐ-007](decision-log.md#qđ-007) |
 | [P-008](#p-008) | Edge case tại BBOX Job #1338 — frame 7 | Guideline chưa nói tới | Chưa xác định | 🔴 Mở | ↗️ Hỏi BTC/Mentor |
 | [P-009](#p-009) | Edge case tại Segmentation Job #1559 — frame 96 | Guideline chưa nói tới | Chưa xác định | 🔴 Mở | ↗️ Hỏi BTC/Mentor |
+| [P-010](#p-009) | Edge case tại Cuboid Annotation Job #3918 | Điểm point cloud thưa | Điểm point cloud thưa kết hợp với hình ảnh hiển thị qua camera không rõ | 🟢 Đã chốt | ↗️ Hỏi BTC/Mentor |
 
 ---
 
@@ -267,6 +268,24 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 - **Xử lý tạm trong lúc chờ:** Không để `fence` và `wall` chồng mask lên cùng một pixel. Giữ case ở trạng thái mở và đưa BTC/Mentor xác nhận cách phân chia class chính thức.
 
 - **Kết quả:** 🔴 Mở — ↗️ Hỏi BTC/Mentor
+
+## P-010
+
+**Point cloud phủ lên bề mặt vật thể khá ít vì vật thể bị che khuất, camera LiDAR không phủ được, tại cuboid car 19. Đối chiếu với cả ảnh camera thường thì không xác định được đủ độ dài và khoảng của xe**
+
+- **Loại:** Guideline mơ hồ
+
+- **Mục guideline:** §4.4
+
+- **Người phát hiện:** [@qungmnh-udev](https://github.com/qungmnh-udev) · 30/09/2026
+
+- **Link CVAT:** https://cvat.note.transformerlabs.ai/tasks/1470/jobs/3918
+
+- **Mô tả:** `Point cloud của camera LiDAR đang phủ lên bề mặt vật thể rất ít, cụ thể chỉ có 3 pixel, đối chiếu với ảnh camera thì có thể thấy được đầu xe nhưng không thể thấy được thân xe, khó để có thể ước lượng được chiều dài và chiều cao của vật thể.`
+
+- **Xử lý tạm trong lúc chờ:**: Cắm flag xử lý Need Review cho vật thể, báo cáo với reviewer để có thể làm rõ.
+
+- **Kết quả:** 🔴 Mở
 
 ## Mẫu để copy
 
